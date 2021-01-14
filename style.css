@@ -69,3 +69,13 @@ body {
 .cards .card5 {
   background-image: url('/img/warren-wong-oocIshMwAQk-unsplash.jpg');
 }
+
+@media only screen and (max-width:450px) {
+  .card:nth-of-type(5),
+  .card:nth-of-type(4) {
+    display: none;
+  }
+  .card {
+    width: 50px;
+  }
+}
