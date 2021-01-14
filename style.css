@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.container  {
+  max-width: 80%;
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  height: 80vh;
+  width: 100px;
+  text-align : center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  position: relative;
+  border-radius: 50px;
+  margin-right: 20px;
+  transition: all 2s ease;
+}
+
+.card.active {
+  width: 100%;
+}
+
+.card h2 {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  opacity: 0;
+}
+.cards .card1 {
+  background-image: url('/img/aditya-chinchure-Wnr-PoKeKp0-unsplash.jpg');
+
+}
+
+.cards .card2 {
+  background-image: url('/img/brian-harro-0CkKk5ttn3I-unsplash.jpg');
+}
+
+.cards .card3 {
+  background-image: url('/img/indrajeet-choudhary-bphyLqW7wGk-unsplash.jpg');
+}
+
+.cards .card4 {
+  background-image: url('/img/sebastian-dc-4FQgggotLAo-unsplash.jpg');
+}
+
+.cards .card5 {
+  background-image: url('/img/warren-wong-oocIshMwAQk-unsplash.jpg');
+}
